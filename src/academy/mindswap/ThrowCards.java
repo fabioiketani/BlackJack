@@ -1,19 +1,15 @@
 package academy.mindswap;
 
+
 public class ThrowCards {
-    private int value;
-    private String name;
-
-    public ThrowCards (int value, String name){
-        this.value = value;
-        this.name = name;
+    private String cards[] =  { "ace","2","3", "4","5","6","7","8","9","10","Jack","Queen","King" };
+    public int randomNumber() {
+        return (int) (Math.random()* (13 - 1 + 1) + 1);
     }
-
-    public int getValue() {
-        return this.value;
-    }
-
-    public String getName() {
-        return name;
+    public String getCards(int indice) {
+        String cardChoice = cards[indice];
+        System.out.println(cardChoice);
+        return cardChoice;
     }
 }
+

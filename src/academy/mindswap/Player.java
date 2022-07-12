@@ -1,14 +1,16 @@
 package academy.mindswap;
 
 public class Player {
+
     private String name;
     private int score;
-    private int handsPlayed;
+    private String cardsHistory;
 
+    ThrowCards throwCards = new ThrowCards();
     public Player(String name, int score){
         this.name = name;
         this.score = score;
-        this.handsPlayed = 0;
+        this.cardsHistory = "";
     }
 
     public String getName() {
@@ -23,15 +25,16 @@ public class Player {
         return score;
     }
 
-    public void setScore(int score) {
+    public void addScore(int score) {
         this.score += score;
+        //System.out.println(this.score);
     }
 
-    public int getHandsPlayed() {
-        return handsPlayed;
+    public String getCardsHistory() {
+        return cardsHistory;
     }
 
-    public void setHandsPlayed(int handsPlayed) {
-        this.handsPlayed += handsPlayed;
+    public void setCardsHistory(int card) {
+        this.cardsHistory = cardsHistory + throwCards.getCards(card);
     }
 }
