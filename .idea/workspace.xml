@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afe00010-a6ce-473a-ab64-ee60ed449bcc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/academy/mindswap/Main.java" afterDir="false" />
+    <list default="true" id="afe00010-a6ce-473a-ab64-ee60ed449bcc" name="Changes" comment="Corrected bug">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/academy/mindswap/BlackJack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/mindswap/BlackJack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/academy/mindswap/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/mindswap/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/academy/mindswap/ThrowCards.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/mindswap/ThrowCards.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,6 +96,14 @@
       <option name="presentableId" value="Default" />
       <updated>1657624220346</updated>
     </task>
+    <task id="LOCAL-00001" summary="Corrected bug">
+      <created>1657639059696</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657639059697</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -112,6 +116,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Corrected bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="Corrected bug" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
